@@ -1,50 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>  </style>
+        <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:rgb(231, 211, 145); 
+            color: #005b90;
+            padding: 30px;
+        }
+        body {
+            background-color:rgb(231, 211, 145); 
+            color: #005b90;
+            padding: 30px;
+        }
+        </style>
     </head>
-
-    <h1> Working with Lists </h1>
-    <h2> What are lists? </h2>
-    <p>
-        Lists are a structure where you can add and remove items of different data types. 
-        Imagine the types of lists we ordinarily make. We make grocery lists full of items (strings!). 
-    <p>
-
-    </p>
-            Grocery List
+    <body>
+        <h1> Working with Lists </h1>
+        <h2> What are lists? </h2>
+        <p>
+            Lists are a structure where you can add and remove items of different data types. 
+            Imagine the types of lists we ordinarily make. We make grocery lists full of items (strings!). 
+        <p>
+    
+        </p>
+                Grocery List
+                <ul>
+                    <li> A dozen eggs &#129370&#129370</li>
+                    <li> Milk &#129371;</li>
+                    <li> Bacon &#129363;</li>
+                </ul>
+            list = ["A dozen eggs", "Milk", "Bacon"]
+            <br >
+        </p>
+        <p> We also have lists full of numbers. <br> 
+            <br >Number List
             <ul>
-                <li> A dozen eggs &#129370&#129370</li>
-                <li> Milk &#129371;</li>
-                <li> Bacon &#129363;</li>
+                <li> 123</li>
+                <li> 234</li>
+                <li> 345</li>
             </ul>
-        list = {"A dozen eggs", "Milk", "Bacon"}
-        <br >
-    </p>
-    <p> We also have lists full of numbers. <br> 
-        <br >Number List
-        <ul>
-            <li> 123</li>
-            <li> 234</li>
-            <li> 345</li>
-        </ul>
-        list = {123, 234, 345}
-    </p>
-    <p> Or a mixture of both! 
-        <br /><br />
-        Restaurant Menu
-        <ul>
-            <li> Rib Steak ...... $18.99 &#129385;</li>
-            <li> Clams (x8) ..... $16.99</li>
-            <li> Lobster ...... $22.00 &#129438;</li>
-        </ul>
-        list = {"Rib Steak", 18.99, "Clams", 16.99, "Lobster", 22.00}
-        <br>
-    </p>
-    <h2> How do I code a list?</h2>
-    <p> Creating a list is 
+            list = [123, 234, 345]
+        </p>
+        <p> Or a mixture of both! 
+            <br /><br />
+            Restaurant Menu
+            <ul>
+                <li> Rib Steak ...... $18.99 &#129385;</li>
+                <li> Clams (x8) ..... $16.99</li>
+                <li> Lobster ...... $22.00 &#129438;</li>
+            </ul>
+            list = ["Rib Steak", 18.99, "Clams", 16.99, "Lobster", 22.00]
+            <br>
+        </p>
+        <h2> How do I code a list?</h2>
+        <p> Creating a list is simple! You can use the list() function or brackets []!
+            <br> - sample_list = list()
+            <br> - sample_list = []
+        <p>
 
-    </p>
+        </p>But we don't just want an empty list! So we need to add something to our newly created list.
+            This will require anoter function, the append() function which will add our item to the <strong> end </strong> of a list.
+            <br> For example, if we write <em> sample_list.append(1) </em>, the number one will be added to our empty list. 
+            <br> <br>This will be our output:
+            <br> sample_list = [1]
+            <br> <br> If we append again, using <em> sample_list.append(2)</em> our list will be the foloowing: 
+            <br> sample_list = [1, 2]
+            <br> <br> And one final append, <em> sample_list.append(3)</em> will add the number 3 to the end of our list and we end up with
+            <br> sample_list = [1, 2, 3]
+        </p>
+    </body>
 
 
 
