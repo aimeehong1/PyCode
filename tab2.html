@@ -36,7 +36,7 @@
             padding: 10px 20px;
         }
         nav a:hover {
-            background-color: #093674;
+            background-color: #362079;
         }
         .container {
             max-width: 960px;
@@ -66,12 +66,10 @@
 
         <style>
             body {
-            background-color: #a9c2d5;
+            background-color: #95b4cb;
             }
             h2{
                 text-align: center;
-                font-size: 10px;
-                font-weight: 100;
                 
             }
             p1{
@@ -93,20 +91,11 @@
                 float: left;
                 margin-right: 10px;
                 width: 200px;
-                font-size: 100px;
-                margin-top: -180px;
-                text-shadow: 5px 5px #a9c2d5;
-                text-align: center;
             }
             .float_col2{
                 float: right;
-                width: 500px; 
-                font-size: 25px;
-                margin-top: -160px;
-                text-indent: 50px;
-                line-height: 1.6;
-                color: #093674;
-                text-shadow: 2px 2px aliceblue;
+                margin-right: 10px;
+                width: 200px; 
             }
             div{
                 display: block;
@@ -118,21 +107,74 @@
                 background-color: rgb(231, 211, 145);
                 padding: 200px;
             }
+            input[type="button"] {
+   margin:11px 6px 11px 6px;
+   -webkit-appearance:button;
+   cursor:pointer;
+   font-weight:normal;
+   font-size:14px;
+   padding:10px 16px;
+   text-transform:uppercase;
+   -webkit-box-sizing:content-box;<!-- www. j av a  2s  . c o  m-->
+   -moz-box-sizing:content-box;
+   box-sizing:content-box;
+   box-shadow:none;
+   cursor:pointer;
+   border:3px solid Chartreuse;
+   -webkit-border-radius:41px;
+   border-radius:41px;
+   color:yellow;
+   text-align:center;
+   -o-text-overflow:clip;
+   text-overflow:clip;
+   letter-spacing:2px;
+   background:blue;
+   transition:0.4s;
+}
+
+input[type="button"]:hover {
+   background:rgb(231, 211, 145);
+   border:3px solid white;
+   color:black;
+   -webkit-box-shadow:0px 3px 8px -2px grey;
+   -moz-box-shadow:0px 3px 8px -2px BlueViolet;
+   -o-box-shadow:0px 3px 8px -2px Chartreuse;
+   box-shadow:0px 3px 8px -2px yellow;
+}
+
+html input[type="button"]:active {
+   border:3px solid blue;
+   background:pink;
+   color:black;
+   -webkit-box-shadow:0px 2px 2px 0px OrangeRed;
+   -moz-box-shadow:0px 2px 2px 0px grey;
+   -o-box-shadow:0px 2px 2px 0px BlueViolet;
+   box-shadow:0px 2px 2px 0px Chartreuse;
+}
+
+html input[type="button"]:disabled,
+.form-submit input[type="submit"]:disabled {
+   -webkit-transition:all .3s ease-in-out 3s;
+   -moz-transition:all .3s ease-in-out 3s;
+   -o-transition:all .3s ease-in-out 3s;
+   transition:all .3s ease-in-out 3s;
+   cursor:default;
+   background-color:yellow;
+   border:3px solid blue;
+   color:black;
+   box-shadow:none;
+}
 
         </style>
-    <h2>Welcome to a beginner's guide to using python!</h2>
-    <iframe src="https://giphy.com/embed/2IudUHdI075HL02Pkk" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pudgypenguins-data-code-coding-2IudUHdI075HL02Pkk"></a></p>
+    <h2><center> <input value="Reveal Answer" type="button" onclick="this.disabled=true; this.value='Answer Here';location.href='#'"> </center></h2>
+
     <div>
         <p class="float_col1">
             Learn To Code!
         </p>
         <p class="float_col2">
-            In this website, we will be showing you the basics of python including what it is, how to download it, 
-            and some of the basic functions. Python is one of the most user friendly, inroductory coding languages.
-            On this website, you will learn what variable are, different variable types, how to print, what loops are,
-            and how to make lists.
+            In this website, we will be showing you the basics of python including what it is, how to download it, and some of the basic functions.
         </p>
     </div>
    
 </html>
-
